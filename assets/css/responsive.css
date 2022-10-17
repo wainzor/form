@@ -1,0 +1,100 @@
+
+@media only screen and (max-width: 1200px) {
+    .form {
+        margin-top: 100px;
+    }
+    .container{
+        max-width: 900px;
+        margin-left: 50px;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .container{
+        max-width: 750px;
+        margin-left: 10px;
+    }
+    .title{
+        font-size: 32px;
+    }
+    .subtitle {
+        font-size: 16px;
+    }
+    .news, .telegram {
+        margin-top: 40px;
+        max-width: 395px;
+    }
+    fieldset {
+        gap: 20px;
+    }
+    .chips{
+        max-width: 230px;
+        min-width: 230px;
+        flex-wrap: wrap;
+    }
+    .something {
+        max-width: 395px;
+    }
+    .modal-content2 {
+        width: 50%;
+    }
+    .btn__auto, .btn__save{
+        width: 160px;
+        height: 35px;
+    }
+}
+@media only screen and (max-width: 770px){
+    .chips {
+        max-width: 150px;
+        min-width: 150px;}
+}
+@media only screen and (max-width: 650px){
+    .about__text{
+        min-width: 200px;
+        max-width: 200px;
+    }
+    .select {
+        min-width: 130px;
+        max-width: 130px;
+    }
+    .select__list{
+        min-width: 130px;
+    }
+    .modal-content2 {
+        width: 70%;
+    }
+}
+@media only screen and (max-width: 510px){
+    .news, .telegram {
+        margin-top: 40px;
+        max-width: 300px;
+    }
+    .something {
+        max-width: 300px;
+    }
+    .about__text {
+        min-width: 150px;
+        max-width: 150px;
+        font-size: 12px;
+        line-height: 16px;
+    }
+    body{
+        font-size: 14px;
+    }
+    .subtitle {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .title {
+        font-size: 28px;
+    }
+    .items{
+        max-width: 150px;
+        flex-wrap: wrap;
+    }
+    .details {
+        margin-top: 15px;
+    }
+    .modal-content2 {
+        width: 80%;
+    }
+}

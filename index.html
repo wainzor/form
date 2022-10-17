@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEST Form</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/responsive.css">
+</head>
+<body>
+    <section class="form">
+        <div class="container">
+            <div class="content__wrapper">
+            <h1 class="title">Управление рассылками</h1>
+            <h2 class="subtitle">Здравствуйте, Андрей. Выберите, категории писем, от которых хотите отписаться.<br>
+                Но пожалуйста, исключите только те категории, которые действительно вас не интересуют.<br>
+                Мы обещаем слать только полезные письма где 😊</h2>
+        </div>
+        <div class="first__screen">
+            <p class="section__title">Общие уведомления</p>
+            <div class="row greeting">
+                <p>Приветственная серия</p>
+                <fieldset>
+                <label class="switch">
+                    <input checked type="checkbox">
+                    <span class="slider round"></span>
+                  </label>
+                <p class="about__text">4 полезных и емких письма в течение месяца</p>
+            </fieldset>
+            </div>
+            <div class="row vebinars">
+                <p>Образовательные вебинары</p>
+                <fieldset>
+                <label style="align-self:start;"  class="switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                  </label>
+                <p class="about__text">Бесплатные вебинары проходят 1 раз в 2 недели.<br>
+                    Вы будете получать 2 письма с напоминанием <br>
+                    о предстоящем вебинаре</p>
+            </fieldset>
+            </div>
+            <div class="row privat__massage">
+                <p>Личные сообщения
+                    <i class="tooltip">
+                        <span class="tooltiptext">Письма об обновлениях 
+                            и улучшениях платформы</span></i>
+                </p>
+                <fieldset>
+                <label class="switch">
+                    <input checked type="checkbox">
+                    <span class="slider round"></span>
+                  </label>
+                  <div class="about__text">
+                  <select class="select" name="referrer">
+                    <option value="" selected="selected">Мгновенно</option>
+                    <option value="1">1 раз в день</option>
+                    <option value="2">Отключить</option>
+                  </select></div>
+            </fieldset>
+            </div>
+        </div>
+        <div class="notice">
+            <div class="news">
+                <p class="section__title">Уведомление по Сайтам</p>
+                <div class="row news__select">
+                    <p>Новости</p>
+                <fieldset>
+                <label  class="switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                  </label>
+            </fieldset>
+                </div>
+            </div>
+        </div>
+        <div class="search__agents">
+            <p style="font-size: 14px;" class="section__title">Поисковые агенты</p>
+        </div>
+        <div class="bussines">
+            <p>Бизнес</p>
+            <div class="row">
+                <div class="items row">
+                    <div class="chips">
+                    <div class="chip">
+                        <p>SEO</p>
+                        <span class="closebtn" onclick="this.parentElement.style.display='none'">&times;</span>
+                      </div>
+                      <div class="chip">
+                        <p>Продвижение</p>
+                        <span class="closebtn" onclick="this.parentElement.style.display='none'">&times;</span>
+                      </div>
+                      <div class="chip">
+                        <p>Аналитика</p>
+                        <span class="closebtn" onclick="this.parentElement.style.display='none'">&times;</span>
+                      </div></div>
+                      <div class="details">
+                        <a id="modal">Детали</a>
+                      </div>
+                </div>
+                <fieldset>
+                    <label class="switch">
+                        <input checked type="checkbox">
+                        <span class="slider round"></span>
+                      </label>
+                    <p class="about__text">Поисковый агент присылает 1 письмо<br>
+                        в неделю и только при условии, что найдены <br>
+                        новые площадки
+                        </p>
+                </fieldset>
+            </div>
+        </div>
+        <div class="something">
+            <p>123</p>
+            <div class="row">
+            <div class="items row">
+                <div class="chips">
+                <div class="chip">
+                    <p>SEO</p>
+                    <span class="closebtn" onclick="this.parentElement.style.display='none'">&times;</span>
+                  </div>
+                  <div class="chip">
+                    <p>Продвижение</p>
+                    <span class="closebtn" onclick="this.parentElement.style.display='none'">&times;</span>
+                  </div></div>
+                  <div class="details">
+                    <a id="modal">Детали</a>
+                  </div>
+            </div>
+            <fieldset>
+                <label class="switch">
+                    <input  type="checkbox">
+                    <span class="slider round"></span>
+                  </label>
+            </fieldset>
+        </div>
+    </div>
+    <div class="something">
+        <p>SEO</p>
+        <div class="row">
+        <div class="items row">
+            <div class="chips">
+            <div class="chip">
+                <p>SEO</p>
+                <span class="closebtn" onclick="this.parentElement.style.display='none'">&times;</span>
+              </div>
+              <div class="chip">
+                <p>Продвижение</p>
+                <span class="closebtn" onclick="this.parentElement.style.display='none'">&times;</span>
+              </div>
+              <div class="chip">
+                <p>Аналитика</p>
+                <span class="closebtn" onclick="this.parentElement.style.display='none'">&times;</span>
+              </div>
+            </div>
+              <div class="details">
+                <a id="modal">Детали</a>
+              </div>
+
+        </div>
+        <fieldset>
+            <label class="switch">
+                <input  type="checkbox">
+                <span class="slider round"></span>
+              </label>
+        </fieldset>
+    </div>
+</div>
+<div class="something">
+    <p>Бурж ссылки</p>
+    <div class="row">
+    <div class="items row">
+        <div class="chips">
+        <div class="chip">
+            <p>Биржи ссылок: Не обнаружен</p>
+            <span class="closebtn" onclick="this.parentElement.style.display='none'">&times;</span>
+          </div>
+        </div>
+          <div class="details">
+            <a id="modal">Детали</a>
+          </div>
+
+    </div>
+    <fieldset>
+        <label class="switch">
+            <input checked  type="checkbox">
+            <span class="slider round"></span>
+          </label>
+    </fieldset>
+</div>
+</div>
+<div class="promotion">
+    <p style="font-size: 14px;" class="section__title collapsible">Рекламные компании </p>
+    <div id="content" class="content">
+    <div class="row privat__massage">
+        <p>Строительство домов в Москве
+        </p>
+        <fieldset>
+        <label class="switch">
+            <input checked type="checkbox">
+            <span class="slider round"></span>
+          </label>
+          <div class="about__text">
+          <select class="select" name="referrer">
+            <option value="" selected="selected">Мгновенно</option>
+            <option value="1">1 раз в день</option>
+            <option value="2">Отключить</option>
+          </select></div>
+    </fieldset>
+    </div>
+    <div class="row privat__massage">
+        <p>Строительство домов в Москве
+        </p>
+        <fieldset>
+        <label class="switch">
+            <input type="checkbox">
+            <span class="slider round"></span>
+          </label>
+          <div class="about__text">
+          <select class="select" name="referrer">
+            <option value="" selected="selected">Мгновенно</option>
+            <option value="1">1 раз в день</option>
+            <option value="2" >Отключить</option>
+          </select>
+        </div>
+    </fieldset>
+    </div>
+</div></div>
+
+<div class="telegram">
+    <p class="section__title">Уведомление по Телеграму</p>
+    <div class="row news__select">
+        <p>Новости</p>
+    <fieldset>
+    <label  class="switch">
+        <input type="checkbox">
+        <span class="slider round"></span>
+      </label>
+</fieldset>
+    </div>
+
+</div>
+<div class="btn__wrapper">
+    <button onclick="$('input:checked').prop('checked', false);" class="btn__auto button">По умолчанию</button>
+    <button id="submit" class="btn__save">Сохранить изменения</button>
+
+</div>
+</div>
+    </section>
+    <div id="submitModal" class="modal2"> 
+        <!-- Модальное содержание -->
+        <div class="modal-content2">
+          <p>Вы уверены?</p>
+          <div class="btn-wrapp">
+          <button class="btn__auto close3">Нет</button>
+          <button onclick="doneFunction()" class="btn__save">Да</button></div>
+          <div id="alert" style="display: none" role="alert">
+            Изменения сохранены.
+        </div>
+        </div>
+    </div>
+<!-- Модальный -->
+<div id="myModal" class="modal">
+    <!-- Модальное содержание -->
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <p>Некоторый текст в модальном..</p>
+    </div>
+  </div>
+</body>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/main.js"></script>
+</html>
